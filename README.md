@@ -1,4 +1,4 @@
-# React Dashboard Project
+# Ecomm Dashboard Project
 
 A responsive dashboard application built using **Vite**, **React**, and **TailwindCSS v4**, featuring Chart.js-based visualizations and a dynamic routing structure using React Router.
 
