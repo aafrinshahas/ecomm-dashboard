@@ -10,17 +10,17 @@ A responsive dashboard application built using **Vite**, **React**, and **Tailwi
 
 npm create vite@latest
 
-# Select React with JavaScript template
+## Select React with JavaScript template
 
 2. TailwindCSS v4 was used for styling (installation method: "Using Vite").
 
 ## TailwindCSS Setup
 
-Step 1 – Install TailwindCSS and plugin for Vite:
+### Step 1 – Install TailwindCSS and plugin for Vite:
 
 npm install tailwindcss @tailwindcss/vite
 
-Step 2 – Update vite.config.js:
+### Step 2 – Update vite.config.js:
 
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -30,11 +30,11 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
 });
 
-Step 3 – In index.css, import Tailwind:
+### Step 3 – In index.css, import Tailwind:
 
 @import "tailwindcss";
 
-Step 4 – Enable dark theme support using a custom variant in index.css:
+### Step 4 – Enable dark theme support using a custom variant in index.css:
 
 @custom-variant dark (&:where(.dark, .dark *));
 
