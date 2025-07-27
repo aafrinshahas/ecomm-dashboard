@@ -10,8 +10,6 @@ A responsive dashboard application built using **Vite**, **React**, and **Tailwi
 
 npm create vite@latest
 
-## Select React with JavaScript template
-
 2. TailwindCSS v4 was used for styling (installation method: "Using Vite").
 
 ## TailwindCSS Setup
